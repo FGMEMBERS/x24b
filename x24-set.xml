@@ -3,5 +3,6 @@
 <PropertyList include="x24b-set.xml">
  <sim>
   <description>Alias for x24b.</description>
+  <author>Jon S. Berndt</author>
  </sim>
 </PropertyList>
