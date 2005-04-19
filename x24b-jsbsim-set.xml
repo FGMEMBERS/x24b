@@ -38,6 +38,10 @@ October 23 2001 John Check, fgpanels@rockfish.net
    <path>Aircraft/Generic/Panels/generic-trans-mini-panel.xml</path>
   </panel_2>
 
+  <help>
+   <title>X-24B</title>
+  </help>
+
  </sim>
 
  <position>
