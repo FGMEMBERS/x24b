@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+X24B simulation config. This files ties together all the components
+used by FGFS to represent the X24B. Components include the flight data 
+model, instrument panel, and external 3D model.
+3D models can be downloaded from http://home.t-online.de/home/Wolfram.Kuss/
+
+October 23 2001 John Check, fgpanels@rockfish.net
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>USAF/NACA X-24B reentry testbed</description>
+ 
+  <startup>
+   <speed-set>knots</speed-set>
+   <onground>false</onground>
+  </startup>
+  
+  <flight-model>jsb</flight-model>
+  <aero>x24b</aero>
+
+  <panel>
+   <path>Aircraft/X15/Panels/X15-panel.xml</path>
+   <visibility>true</visibility>
+  </panel>
+  <panel_2>
+   <path>Aircraft/Generic/Panels/generic-trans-mini-panel.xml</path>
+  </panel_2>
+
+  <help>
+   <title>X-24B</title>
+  </help>
+
+ </sim>
+
+ <position>
+  <altitude-ft>35000</altitude-ft>
+ </position>
+
+ <velocities>
+  <airspeed-kt>250</airspeed-kt>
+ </velocities>
+
+</PropertyList>
+
+
