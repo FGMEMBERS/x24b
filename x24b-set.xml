@@ -2,6 +2,7 @@
 
 <PropertyList include="x24b-jsbsim-set.xml">
  <sim>
+   <exclude-from-gui type="bool">true</exclude-from-gui>
   <description>Alias for x24b-jsbsim.</description>
  </sim>
 </PropertyList>
