@@ -15,6 +15,22 @@ October 23 2001 John Check, fgpanels@rockfish.net
  <sim>
 
   <description>USAF/NACA X-24B reentry testbed</description>
+  <longdescription>
+   The Martin Marietta X-24 was an American experimental aircraft developed from a joint United States Air Force-NASA program. It was designed and built to test lifting body concepts, experimenting with the concept of unpowered reentry and landing, later used by the Space Shuttle.
+  The X-24 was drop launched from a modified B-52 Stratofortress at high altitudes before igniting its rocket engine; after expending its rocket fuel, the pilot would glide the X-24 to an unpowered landing.
+  </longdescription>
+
+  <tags>
+    <tag>glider</tag>
+    <tag>spaceship</tag>
+    <tag>experimental</tag>
+    <tag>lifting-body</tag>
+    <tag>low-wing</tag>
+    <tag>tricycle</tag>
+    <tag>single-engine</tag>
+    <tag>rocket</tag>
+    <tag>1970s</tag>
+  </tags>
  
   <startup>
    <speed-set>knots</speed-set>
